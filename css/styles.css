@@ -1,0 +1,381 @@
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+  background-color: #e4e3e2;
+}
+body,h1,h2,h3,h4,h5,h6 {  font-family: 'Poppins', sans-serif;}
+
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("images/b-img.jpg");
+  opacity:100%;
+
+}
+
+/*Navbar*/
+
+
+
+.logo{
+  padding-top: 0;
+  width: 200px;
+  height: auto;
+}
+
+.w3-bar .w3-button {
+  padding: 16px;
+
+
+}
+
+
+.w3-bar-top{
+background-color: #e4e3e2;
+padding-bottom: 10px;
+padding-top: 30px;
+padding-left: 94.5px;
+padding-right: 94.5px;
+box-shadow: none;
+}
+
+.w3-right{
+  font-weight: bold;
+  font-style: normal;
+  font-size: 11px;
+  letter-spacing: .1em;
+  line-height: 1.5em;
+  text-transform: none;
+  color: #222;
+  padding-top: 30px;
+  margin-right: 28px;
+
+}
+
+.nav-link{
+
+  margin-right: 5px;
+  width: 20px;
+  text-align: center;
+font-size: 11px;
+}
+
+
+/*Carousel*/
+#carouselExampleControls{
+  width: 80%;
+margin: auto;
+margin-top: 10px;
+}
+
+.carousel-control-next{
+  width: 100%;
+  height: 500px;
+  margin-top: 200px;
+  opacity: 0%;
+}
+
+.carousel-control-next-icon{
+  opacity: 0%;
+}
+
+.mission-h3{
+  padding-left: 87px;
+  font-size:25px;
+  color: #72bf45;
+}
+
+.mission-h1{
+  padding-left: 87px;
+  font-size: 40px;
+  line-height: 1.3em;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+
+}
+
+/*AUCA*/
+
+#carouselExampleControlsAUCA{
+  width: 50%;
+margin: auto;
+margin-top: 10px;
+}
+
+.AUCA-h1{
+  text-align: left;
+  font-size: 25px;
+  line-height: 1.3em;
+  font-weight: 500;
+  font-family: 'Poppins', sans-serif;
+  margin-top: 15px;
+}
+
+#Mission{
+  padding-top: 200px;
+  padding-bottom: 100px;
+}
+
+.w3-col.m6{
+  width: 70%;
+}
+
+h3 {
+  font-size:25px;
+  color: #72bf45;
+
+}
+
+
+#about{
+  padding-top:150px;
+  padding-bottom: 170px;
+}
+
+
+
+
+/*Work*/
+.h3-work{
+  margin-bottom: 50px;
+
+}
+
+#Work{
+  padding-top: 120px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.h3{
+  text-align: left;
+}
+/*Footer*/
+#footer{
+  margin-top: 200px;
+
+}
+
+#footer2{
+  margin-top:30px;
+
+}
+
+.fa-house{
+  color: green;
+  margin: 20px;
+
+}
+
+.fa-brands{
+  color: green;
+}
+
+.end{
+  font-size: 15px;
+}
+
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clear floats after image containers */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/*workshops*/
+.float-parent-element {
+    width: 100%;
+}
+.float-child-element {
+    float: left;
+    width: 100%;
+}
+.photo {
+
+
+}
+
+.allcampuses{
+  width: 100%;
+}
+
+.containerwork{
+  margin-top: 50px;
+}
+
+.workshopsposter{
+  margin-left: 70%;
+  height: 100%;
+  width: 20%;
+}
+
+.paragraph {
+    margin-left: 0%;
+    height: 100px;
+}
+
+.SCHOOLS{
+
+  margin-top: 50px;
+  text-align: center;
+}
+
+.aucaimg{
+  margin-bottom: 50px;
+  width: 100%;
+
+}
+
+.keuimg{
+  width: 100%;
+}
+
+/*auca workshops*/
+.aucaph{
+  text-align: center;
+  width: 50%;
+}
+
+
+
+
+
+
+$desktop:1200px;
+$laptop:992px;
+$tablet:768px;
+$phone:480px;
+
+@media all and (max-width: 890px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 50%;
+    position: relative;
+    right: 70px;
+  }
+    [id*="myCarousel"]{
+      padding-top: 100px;
+    }
+[class*="w3-right"]{
+  position: absolute;
+  top:50px;
+  left:330px;
+}
+
+[class*="mission-h1"]{
+  font-size: 30px;
+}
+
+
+}
+
+@media all and (max-width: 831px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 50%;
+    position: relative;
+    right: 60px;
+  }
+    [id*="myCarousel"]{
+      padding-top: 100px;
+    }
+[class*="w3-right"]{
+  position: absolute;
+  top:50px;
+  left:300px;
+}
+
+[class*="mission-h1"]{
+  font-size: 30px;
+}
+
+
+}
+
+@media all and (max-width: 768px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 50%;
+    position: relative;
+    right: 60px;
+  }
+    [id*="myCarousel"]{
+      padding-top: 100px;
+    }
+[class*="w3-right"]{
+  position: absolute;
+  top:30px;
+  left:250px;
+
+}
+[class*="carousel-inner"]{
+  padding-top: 100px;
+}
+[class*="mission-h1"]{
+  font-size: 30px;
+
+}
+
+
+@media all and (max-width:490px) {
+  /* For mobile phones: */
+  [class*="logo"] {
+    width: 70%;
+    position: relative;
+    right: 50px;
+
+  }
+
+
+
+[id*="menubutton"]{
+  position: relative;
+  left: 100px;
+  padding-top: 10px;
+
+}
+
+    [id*="myCarousel"]{
+      padding-top: 100px;
+    }
+
+[class*="w3-right"]{
+  position: absolute;
+  top:30px;
+
+}
+
+[id*="Mission"]{
+  padding-top: 100px;
+  padding-bottom: 0;
+}
+
+[class*="mission-h3"]{
+  padding: 0;
+}
+
+[class*="mission-h1"]{
+  font-size: 15px;
+  padding: 0;
+
+}
+
+[class*="h3"]
+  font-size: 15px;
+}
+
+[class*="column"]{
+  width: 100%;
+
+}
+
+}
